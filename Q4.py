@@ -8,4 +8,4 @@ with open("myfile.txt", "r") as f:
     words = content.split()
     print("Total number of words in the file:", len(words))
     unique_words = set(words)
-    print("\n Unique words in the file:\n", unique_words)
+    print("\n Unique words in the file:\n"  unique_words)
